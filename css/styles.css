@@ -1,126 +1,179 @@
 .link {
   text-decoration: none;
 }
+
 :root {
-  --brand-color:#2196F3 ;
+  --brand-color: #2196F3;
 }
-.list{
+
+.list {
   list-style: none;
 }
+
 body {
   font-family: 'Roboto',
     sans-serif;
   background-color: #E5E5E5;
 }
-.accent{
+
+.accent {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   /* identical to box height */
-  
+
   letter-spacing: 0.03em;
-  
+
   color: #2196F3;
 }
-.logo{
-font-family: 'Raleway',sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-/* identical to box height */
 
-letter-spacing: 0.03em;
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
 
-color: #212121;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
-.menu-link .link{
+
+.menu-link .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  
-  color: #212121;
+
+  color: inherit;
 }
+
 .menu-link .link:hover,
 :focus {
   color: #2196F3;
 }
-.contact-list .link{
+
+.contact-list .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
 }
+
 .contact-list .link:hover,
-:focus{
-color:#2196F3;
+:focus {
+  color: #2196F3;
 }
-.section-title{
-  background-color: #2F303A;;
+
+.section-title {
+  background-color: #2F303A;
 }
-.title{
+
+.section-title .title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   /* or 136% */
-  
+
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  text-align:center;
-  color:#FFFFFF;;
-}
-.button{
-background-color:#2196F3 ;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.8;
-/* identical to box height, or 188% */
-
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-
-color: #FFFFFF;
-}
-.paragraph-characteristic{
-  font-size: 14px;
-  line-height: 1.7;
-  
-  letter-spacing: 0.03em;
-  
-  color: #757575;
-}
-.about-us,.team{
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
   text-align: center;
+  color: #FFFFFF;
+  ;
+}
+
+.btn {
+  background-color: #2196F3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  /* identical to box height, or 188% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+
+.btn:hover {
+  background-color: #188CE8;
+}
+
+.description-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
   letter-spacing: 0.03em;
-  text-align:center;
+  text-transform: uppercase;
+
   color: #212121;
 }
-.worker-name{
+
+.description {
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.worker-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18px;
   /* identical to box height */
-  
+
   text-align: center;
   letter-spacing: 0.03em;
-  
+
   color: #212121;
 }
-.team-worker{
+
+.team-worker {
   font-size: 16px;
   line-height: 1.18;
   /* identical to box height */
-  
+
   text-align: center;
   letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.footer {
+  background-color: #2F303A;
+}
+
+.footer .logo {
+  color: #FFFFFF;
+}
+
+.adress {
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
   
+  letter-spacing: 0.03em;
+}
+.contacts{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: #757575;
 }
