@@ -15,6 +15,7 @@ body {
   font-family:'Roboto',
     sans-serif;
   background-color: #E5E5E5;
+  color: #212121;
 }
 
 .accent {
@@ -179,6 +180,10 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
 }
+.contacts:hover,
+.contacts:focus{
+  color: var(--brand-color);
+}
 .button-filter{
   background-color:#F5F4FA;
   font-size: 16px;
@@ -218,4 +223,7 @@ body {
   /* or 156% */
   
   letter-spacing: 0.03em;
+}
+.button{
+cursor: pointer;
 }
