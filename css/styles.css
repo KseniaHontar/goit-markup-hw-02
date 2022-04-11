@@ -181,10 +181,41 @@ body {
 }
 .button-filter{
   background-color:#F5F4FA;
-  color:#212121;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+  
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .button-filter:hover,
 .button-filter:focus{
   background-color: var(--brand-color);
   color: #FFFFFF;
+}
+.project-name{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  
+  letter-spacing: 0.06em;
+  
+  color: #212121;
+}
+.project-type{
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 188% */
+  
+  letter-spacing: 0.03em;
+  
+  color: #757575;
+}
+.project-description{
+  font-size: 18px;
+  line-height: 1.55;
+  /* or 156% */
+  
+  letter-spacing: 0.03em;
 }
