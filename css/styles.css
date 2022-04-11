@@ -179,3 +179,12 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
 }
+.button-filter{
+  background-color:#F5F4FA;
+  color:#212121;
+}
+.button-filter:hover,
+.button-filter:focus{
+  background-color: var(--brand-color);
+  color: #FFFFFF;
+}
