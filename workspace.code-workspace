@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "goit-markup-hw-01",
+    "cSpell.enableFiletypes": ["css"]
+  }
+}
