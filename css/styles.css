@@ -14,58 +14,89 @@
     }
 
     .list {
-      list-style: none;
       padding-left: 0px;
-    }
+      padding-top: 0px;
+      padding-bottom: 0px;
+      display: flex;
 
+      list-style: none;
+    }
     body {
-      font-family:'Roboto',
-        sans-serif;
+      font-family:'Roboto',sans-serif;
       background-color: #FFFFFF;
       color: #212121;
     }
     /*центрування основного контенту*/
 
-      .container{
-          width: 1230px;
-        margin: auto;
-      padding: 0 15px;
+    .container{
+     margin: auto;
+     padding: 0 15px;
 
-        
-        }
+    width: 1230px;
+    /*outline: 1px solid red;*/
+     }
+
+    .section {
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
+
+     /*header page*/
+
+     .header{
+      border-bottom: 1px solid #ECECEC;
+     }
+
+     .main-nav{
+      display: flex;
+      padding-top: 24px;
+      padding-bottom: 25px;
+
+      align-items: center;
+     }
+
+   .menu-link .link{
+    display: block;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: inherit;
+     
+    }
+    .menu-link{
+     margin-top: 0px;
+     margin-bottom: 0px;
+    }
+    .menu-link .item:not(:last-child){
+      margin-right: 50px;
+    }
 
   /*частина логотипу (Web)*/
       .accent {
+        display: inline-block;
+
         font-family:'Raleway',sans-serif;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
-        display: inline-block;
         letter-spacing: 0.03em;
         color:var(--brand-color);
       }
+      
 
   /* інша частина логотипу (studio)*/
     .logo{
+      margin-right: 93px;
+
       font-family: 'Raleway', sans-serif;
       font-weight: 700;
       font-size: 26px;
       line-height: 1.19;
-      margin-left: 15px;
-        margin-top: 24px;
       letter-spacing: 0.03em;
-
       color: #212121;
-    }
-
-    /* стилізація навгації*/
-   .menu-link a{
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 1.14;
-      letter-spacing: 0.02em;
-  display: block;
-      color: inherit;
+      
     }
 
     /*псевдокласи стану навігації*/
@@ -82,6 +113,15 @@
       letter-spacing: 0.02em;
       color: #757575;
     }
+    .contact-list{
+      margin-left: auto;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+  
+    .email{
+      margin-left: 50px;
+    }
 
     .contact-list .link:hover,
     .contact-list .link:focus{
@@ -91,37 +131,35 @@
     /* секція "герой"*/
     .section-title {
       background-color: #2F303A;
+      text-align: center;
     }
 
     /*головний заголовок h1*/
     .section-title .title {
+      margin-bottom: 30px;
+
       font-weight: 900;
       font-size: 44px;
       line-height: 1.36;
-      /* or 136% */
-
       text-align: center;
       letter-spacing: 0.06em;
       text-transform: uppercase;
-      text-align: center;
       color: #FFFFFF;
-      ;
     }
 
     /*кнопка "заказать услугу"*/
     .btn{
+      display: inline-block;
+      padding: 10px 32px;
+
       background-color: var(--brand-color);
       font-weight: 700;
       font-size: 16px;
       line-height: 1.8;
       min-width: 200px;
       min-height: 50px;
-      padding: 10px 32px;
-      align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
+      letter-spacing: 0.06em;
       color: #FFFFFF;
-      display: inline-block;
       border: 1px solid var(--brand-color) ;
       border-radius: 4px;
     }
@@ -133,135 +171,207 @@
 
     /*h3 характеристики компанії*/
     .description-title {
+      margin-bottom: 10px;
+
       font-weight: 700;
       font-size: 14px;
       line-height: 1.14px;
       letter-spacing: 0.03em;
       text-transform: uppercase;
-      margin-bottom: 10px;
-      
-
       color: #212121;
     }
 
      /*текст характеристики*/
     .description {
-      font-size: 14px;
-      line-height: 1.7;
       padding-left: 0px;
       margin: 0px;
+
+      font-size: 14px;
+      line-height: 1.7;
       letter-spacing: 0.03em;
       color: #757575;
     }
 
     /*заголовки h2*/
     .title {
+      display: block;
+
       font-weight: 700;
       font-size: 36px;
       line-height: 1.16px;
       text-align: center;
       letter-spacing: 0.03em;
-
       color: #212121;
       
     }
+    .list.item{
+      width: 270px;
+    }
+    .item:not(:last-child){
+      margin-right: 30px;
+    }
+    .img-list{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      justify-content: space-between;
+    }
 
     .worker-name {
+      margin-bottom: 20.5px;
+
       font-weight: 500;
       font-size: 16px;
-      line-height: 1.18px;
-        margin-bottom: 10px;
-
-      text-align: center;
+      line-height: 1.18px;text-align: center;
       letter-spacing: 0.03em;
-
       color: #212121;
     }
 
     .team-worker {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    
       font-size: 16px;
       line-height: 1.18;
-    margin-top: 0px;
-    margin-bottom: 0px;
-
       text-align: center;
       letter-spacing: 0.03em;
-
       color: #757575;
     }
+    .team-card{
+      margin-right: 30px;
+      border-radius: 0px 0px 4px 4px;
+      width: calc((100%-30px*4)/4);
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 12%), 
+        0px 1px 1px rgba(0,0,0, 14%),
+         0px 2px 1px rgba(0,0,0, 20%);
+      }
+      .img-team{
+        margin-bottom: 30px;
+      }
 
     .footer {
+      padding: 60px; 
+
       background-color: #2F303A;
       height: 252px;
-      padding: 60px;
+      
     }
-
+    .address-list > li{
+      list-style: none;
+    }
+    .address-list{
+      padding-left: 0px;
+    }
     .footer .logo {
       color: #FFFFFF;
     }
 
     .address {
-      color: #FFFFFF;
-      font-size: 14px;
-      line-height: 1.71;
       margin-bottom: 9px;
       display: inline-block;
 
+      color: #FFFFFF;
+      font-size: 14px;
+      line-height: 1.71;
       letter-spacing: 0.03em;
     }
     .contacts{
       display: inline-block;
+      margin-bottom: 9px;
+
       font-weight: 500;
       font-size: 14px;
       line-height: 1.14;
       letter-spacing: 0.02em;
-      color: #757575;
-      margin-bottom: 9px;
+      color: #ffffff60;
     }
     .contacts:hover,
     .contacts:focus{
       color: var(--brand-color);
     }
+
+    .button-list{
+      margin-bottom: 50px;
+      justify-content: center;
+    }
+
+
     .button-filter{
+      margin-right: 8px;
+      padding: 6px 22px;
+
       background-color:#F5F4FA;
       font-size: 16px;
       line-height: 1.62;
-      /* identical to box height, or 162% */
-      
       text-align: center;
       letter-spacing: 0.03em;
+      border-radius: 4px;
+      border: 0px;
     }
+    .button-list:last-child{
+      margin-right: 0px;
+    }
+
     .button-filter:hover,
     .button-filter:focus{
       background-color: var(--brand-color);
       color: #FFFFFF;
+      box-shadow: 0px 3px 1px rgba(0, 0, 0, 10%), 0px 1px 2px rgba(0,0,0, 8%), 0px 2px 2px rgba(0, 0, 0, 12%);
     }
+
+    .project-list {
+      margin-top: 0px;
+      margin-bottom: 0px;
+       padding-left: 0;
+       display: flex;
+       flex-wrap: wrap;
+    
+       list-style: none;
+    }
+
+    .project-card{
+      margin-bottom: 30px;
+      width: calc((100-30px*12)/12);
+      width: 370px;
+      height: 404;
+
+      border: 1px solid #EEEEEE;
+    }
+    
+    .project-card:not(:nth-child(3n)){
+      margin-right: 30px;
+    }
+
+    .project-card:nth-last-child(-n+3){
+      margin-bottom: 0px;
+    }
+
     .project-name{
+      margin-top: 20px;
+      margin-bottom: 4px;
+      margin-left: 24px;
       font-weight: 700;
       font-size: 18px;
       line-height: 2;
-      /* identical to box height, or 200% */
-      
       letter-spacing: 0.06em;
-      
       color: #212121;
     }
+
     .project-type{
+      margin-top: 0px;
+      margin-bottom: 20px;
+      margin-left: 24px;
       font-size: 16px;
       line-height: 1.87;
-      /* identical to box height, or 188% */
-      
       letter-spacing: 0.03em;
-      
       color: #757575;
     }
+
     .project-description{
       font-size: 18px;
       line-height: 1.55;
-      /* or 156% */
-      
       letter-spacing: 0.03em;
     }
+
     .button{
     cursor: pointer;
     }
@@ -274,21 +384,15 @@
     }
 
     .title-services{
-      margin-bottom: 50px;
+      margin-bottom: 71px;
     }
+
     .title-team{
-      margin-bottom: 50px;
+      margin-bottom: 71px;
     }
+    
     .logo-footer{
       margin-bottom: 20px;
-    }
-  .team-block{
-    margin-bottom: 94px;
-  }
-  .header{
-    margin-top: 24px;
-    margin-bottom: 25px;
-  }
-  .project-list{
-    padding-left: 0;
-  }
+      margin-right: 0px;}
+    
+  
